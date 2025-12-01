@@ -1,0 +1,140 @@
+body{
+    font-weight: 600;
+    text-align: center;
+    font-family: "Pixelify Sans";
+    background-color: #202020;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+    word-spacing: 15px;
+    zoom: 0.55; /* увеличить на 20% */
+}
+
+h1
+{
+    font-size: 100px;
+     background-color: #00000044;
+    padding: 5px;
+}
+h2{ 
+     background-color: #00000044;
+    padding: 5px;
+    font-weight: 100;
+}
+
+p{
+    font-weight: 100;    
+    background-color: #00000044;
+    padding: 5px;
+}
+
+a{
+    color: #DEDEDE;
+    text-decoration: none;
+}
+.special{
+ color: #bdff87;
+}
+.namings{
+    color: #fff241;
+    font-size: 100px;
+    font-weight: 400;
+}
+section{
+    margin-bottom: 100px;
+}
+.container{
+    max-width: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    display: flex;
+    
+    justify-content: center; 
+    align-items: center;     
+}
+
+/* Gifs */
+.gif-per {
+  width: 150px;
+  height: 100%;
+  background-image: url('per.gif'); 
+  
+}
+.gif-per1 {
+  width: 500px;
+  height: 100%;
+  background-image: url('per1.gif');
+}
+.gif-per2 {
+  width: 200px;
+  height: 100%;
+  background-image: url('per1.gif');
+}
+.kw{
+    width: 10%;
+    gap: 10px;
+}
+/* Обводка */
+.element {
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+hr {
+  border: none;
+  height: 10px;
+  background-color: #000000; 
+  margin: 40px 0;
+}
+/* BG общий */
+.background { 
+    
+    background-image: url('images/ground.png');
+    height: 100%;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    
+
+}
+/* BG текста */
+.backgroundText{ 
+    
+    background-image: url('images/BGtext.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    height: auto; 
+    width: auto;
+    width: 2000px;
+
+}
+.game{
+
+}
+/* шапка */
+.header {
+    padding: 10px 10px;
+    background: rgba(50, 50, 50, 0.7);
+    background-image: url('images/headerBack.png');
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__nav {
+    font-size: 30px;
+    display: flex;
+    gap: 50px;
+}
