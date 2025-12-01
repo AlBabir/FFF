@@ -59,7 +59,7 @@ section{
 .gif-per {
   width: 150px;
   height: 100%;
-  background-image: url('per.gif'); 
+  background-image: url('https://github.com/AlBabir/FFF/image/per.gif'); 
   
 }
 .gif-per1 {
@@ -138,3 +138,4 @@ hr {
     display: flex;
     gap: 50px;
 }
+
